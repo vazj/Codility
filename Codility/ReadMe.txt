@@ -1,40 +1,5 @@
-========================================================================
-    CONSOLE APPLICATION : Codility Project Overview
-========================================================================
+A little fun having a go at the challenges found at Codility Train - https://codility.com/train/
 
-AppWizard has created this Codility application for you.
+Anything published here has achieved 100% when submitted.
 
-This file contains a summary of what you will find in each of the files that
-make up your Codility application.
-
-
-Codility.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
-
-Codility.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
-
-Codility.cpp
-    This is the main application source file.
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named Codility.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
+For the actual challenges I've needed to stick with C++98 but may have strayed a little for the rest of the solution.
