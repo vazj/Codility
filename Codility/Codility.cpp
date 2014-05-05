@@ -4,6 +4,7 @@
 #include "FrogJmp.h"
 #include "PermMissingElem.h"
 #include "PermCheck.h"
+#include "FrogRiverOne.h"
 
 using namespace std;
 
@@ -44,12 +45,12 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	// Lesson 2 - Counting Elements
 	// PermCheck
-//	A = { 4, 1, 3, 2 };
-	A = { 1, 2, 3 };
+	A = { 4, 1, 3, 2 };
 	Test<int>(string("PermCheck"), 1, PermCheck(A));
 
-	//A = { 4, 1, 3, 3 };
-	//Test<int>(string("PermCheck"), 0, PermCheck(A));
+	// FrogRiverOne
+	A = { 1, 3, 1, 4, 2, 3, 5, 4 };
+	Test<int>(string("FrogRiverOne"), 6, FrogRiverOne(5, A));
 
 	getchar();
 

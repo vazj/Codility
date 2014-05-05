@@ -78,6 +78,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="FrogJmp.h" />
+    <ClInclude Include="FrogRiverOne.h" />
     <ClInclude Include="PermCheck.h" />
     <ClInclude Include="PermMissingElem.h" />
     <ClInclude Include="stdafx.h" />
@@ -87,6 +88,7 @@
   <ItemGroup>
     <ClCompile Include="Codility.cpp" />
     <ClCompile Include="FrogJmp.cpp" />
+    <ClCompile Include="FrogRiverOne.cpp" />
     <ClCompile Include="PermCheck.cpp" />
     <ClCompile Include="PermMissingElem.cpp" />
     <ClCompile Include="stdafx.cpp">
