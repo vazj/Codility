@@ -5,6 +5,7 @@
 #include "PermMissingElem.h"
 #include "PermCheck.h"
 #include "FrogRiverOne.h"
+#include "MaxCounters.h"
 
 using namespace std;
 
@@ -51,6 +52,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	// FrogRiverOne
 	A = { 1, 3, 1, 4, 2, 3, 5, 4 };
 	Test<int>(string("FrogRiverOne"), 6, FrogRiverOne(5, A));
+
+	// MaxCounters
+	A = { 3, 4, 4, 6, 1, 4, 4 };
+	vector<int> B = { 3, 2, 2, 4, 2 };
+	Test<vector<int>>(string("MaxCounters"), B, MaxCounters(5, A));
+
 
 	getchar();
 
