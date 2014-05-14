@@ -79,7 +79,9 @@
   <ItemGroup>
     <ClInclude Include="FrogJmp.h" />
     <ClInclude Include="FrogRiverOne.h" />
+    <ClInclude Include="GenomicRangeQuery.h" />
     <ClInclude Include="MaxCounters.h" />
+    <ClInclude Include="PassingCars.h" />
     <ClInclude Include="PermCheck.h" />
     <ClInclude Include="PermMissingElem.h" />
     <ClInclude Include="stdafx.h" />
@@ -90,7 +92,9 @@
     <ClCompile Include="Codility.cpp" />
     <ClCompile Include="FrogJmp.cpp" />
     <ClCompile Include="FrogRiverOne.cpp" />
+    <ClCompile Include="GenomicRangeQuery.cpp" />
     <ClCompile Include="MaxCounters.cpp" />
+    <ClCompile Include="PassingCars.cpp" />
     <ClCompile Include="PermCheck.cpp" />
     <ClCompile Include="PermMissingElem.cpp" />
     <ClCompile Include="stdafx.cpp">

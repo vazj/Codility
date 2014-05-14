@@ -9,6 +9,7 @@
 using namespace std;
 
 // For Codility the solutions need to be written in C++ 98
+// Parameter names as per Codility.
 int TapeEquilibrium(std::vector<int> &A) 
 {
 	vector<int> leftSlice;

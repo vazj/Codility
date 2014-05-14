@@ -6,6 +6,8 @@
 #include "PermCheck.h"
 #include "FrogRiverOne.h"
 #include "MaxCounters.h"
+#include "PassingCars.h"
+#include "GenomicRangeQuery.h"
 
 using namespace std;
 
@@ -58,6 +60,17 @@ int _tmain(int argc, _TCHAR* argv[])
 	vector<int> B = { 3, 2, 2, 4, 2 };
 	Test<vector<int>>(string("MaxCounters"), B, MaxCounters(5, A));
 
+	// Lesson 3 - Prefix Sums
+	// PassingCars
+	A = { 0, 1, 0, 1, 1};
+	Test<int>(string("PassingCars"), 5, PassingCars(A));
+
+	// GenomicRangeQuery
+	string S("CAGCCTA");
+	vector<int> P = { 2, 5, 0 };
+	vector<int> Q = { 4, 5, 6 };
+	B = { 2, 4, 1 };
+	Test<vector<int>>(string("GenomicRangeQuery"), B, GenomicRangeQuery(S, P, Q));
 
 	getchar();
 

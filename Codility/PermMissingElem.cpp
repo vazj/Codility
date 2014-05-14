@@ -7,6 +7,7 @@
 using namespace std;
 
 // For Codility the solutions need to be written in C++ 98
+// Parameter names as per Codility.
 int PermMissingElem(std::vector<int> &A) 
 {
 	unsigned long total = 0;
