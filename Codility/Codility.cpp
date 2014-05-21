@@ -9,6 +9,7 @@
 #include "PassingCars.h"
 #include "GenomicRangeQuery.h"
 #include "MinAvgTwoSlice.h"
+#include "CountDiv.h"
 
 using namespace std;
 
@@ -77,6 +78,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	// MinAvgTwoSlice
 	A = { 4, 2, 2, 5, 1, 5, 8 };
 	Test<int>(string("MinAvgTwoSlice"), 1, MinAvgTwoSlice(A));
+
+	// CountDiv
+	Test<int>(string("CountDiv"), 3, CountDiv(6, 11, 2));
+
 
 	getchar();
 
