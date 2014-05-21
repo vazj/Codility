@@ -39,8 +39,7 @@ int MinAvgTwoSlice(std::vector<int> &A)
 		}
 	}
 
-	// As we're looping through up to the last 3 we need to check the last 2 before we can be sure 
-	// of the result
+	// As we miss out on the last two in the loop above we need to ensure they're taken into account here.
 	if (((double)(A[N - 2] + A[N - 1]) / 2.0) < minAvg)
 	{
 		minSliceStart = A.size() - 2;
