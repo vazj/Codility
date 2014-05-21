@@ -8,6 +8,7 @@
 #include "MaxCounters.h"
 #include "PassingCars.h"
 #include "GenomicRangeQuery.h"
+#include "MinAvgTwoSlice.h"
 
 using namespace std;
 
@@ -26,6 +27,7 @@ bool Test(string& name, resultType expectedResult, resultType result)
 		return false;
 	}
 }
+
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -71,6 +73,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	vector<int> Q = { 4, 5, 6 };
 	B = { 2, 4, 1 };
 	Test<vector<int>>(string("GenomicRangeQuery"), B, GenomicRangeQuery(S, P, Q));
+
+	// MinAvgTwoSlice
+	A = { 4, 2, 2, 5, 1, 5, 8 };
+	Test<int>(string("MinAvgTwoSlice"), 1, MinAvgTwoSlice(A));
 
 	getchar();
 
