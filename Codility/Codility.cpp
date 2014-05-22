@@ -10,6 +10,7 @@
 #include "GenomicRangeQuery.h"
 #include "MinAvgTwoSlice.h"
 #include "CountDiv.h"
+#include "Distinct.h"
 
 using namespace std;
 
@@ -82,6 +83,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	// CountDiv
 	Test<int>(string("CountDiv"), 3, CountDiv(6, 11, 2));
 
+	// Lesson 4 - Sorting
+	// Distinct
+	A = { 2, 1, 1, 2, 3, 1 };
+	Test<int>(string("Distinct"), 3, Distinct(A));
 
 	getchar();
 

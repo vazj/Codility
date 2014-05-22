@@ -78,6 +78,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CountDiv.h" />
+    <ClInclude Include="Distinct.h" />
     <ClInclude Include="FrogJmp.h" />
     <ClInclude Include="FrogRiverOne.h" />
     <ClInclude Include="GenomicRangeQuery.h" />
@@ -93,6 +94,7 @@
   <ItemGroup>
     <ClCompile Include="Codility.cpp" />
     <ClCompile Include="CountDiv.cpp" />
+    <ClCompile Include="Distinct.cpp" />
     <ClCompile Include="FrogJmp.cpp" />
     <ClCompile Include="FrogRiverOne.cpp" />
     <ClCompile Include="GenomicRangeQuery.cpp" />
