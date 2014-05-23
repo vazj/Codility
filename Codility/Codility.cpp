@@ -11,6 +11,7 @@
 #include "MinAvgTwoSlice.h"
 #include "CountDiv.h"
 #include "Distinct.h"
+#include "MaxProductOfThree.h"
 
 using namespace std;
 
@@ -87,6 +88,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	// Distinct
 	A = { 2, 1, 1, 2, 3, 1 };
 	Test<int>(string("Distinct"), 3, Distinct(A));
+
+	// MaxProductOfThree
+	A = { -3, 1, 2, -2, 5, 6 };
+	Test<int>(string("MaxProductOfThree"), -6, MaxProductOfThree(A));
+
 
 	getchar();
 

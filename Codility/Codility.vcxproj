@@ -83,6 +83,7 @@
     <ClInclude Include="FrogRiverOne.h" />
     <ClInclude Include="GenomicRangeQuery.h" />
     <ClInclude Include="MaxCounters.h" />
+    <ClInclude Include="MaxProductOfThree.h" />
     <ClInclude Include="MinAvgTwoSlice.h" />
     <ClInclude Include="PassingCars.h" />
     <ClInclude Include="PermCheck.h" />
@@ -99,6 +100,7 @@
     <ClCompile Include="FrogRiverOne.cpp" />
     <ClCompile Include="GenomicRangeQuery.cpp" />
     <ClCompile Include="MaxCounters.cpp" />
+    <ClCompile Include="MaxProductOfThree.cpp" />
     <ClCompile Include="MinAvgTwoSlice.cpp" />
     <ClCompile Include="PassingCars.cpp" />
     <ClCompile Include="PermCheck.cpp" />
