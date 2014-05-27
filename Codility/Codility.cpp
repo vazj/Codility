@@ -96,8 +96,6 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	// Triangle
 	A = { 10, 2, 5, 1, 8, 20 };
-	//A = { 10, 2, 5, 1, 8, 20 };
-	//	A = { 5, 3, 3 };
 	Test<int>(string("Triangle"), 1, Triangle(A));
 
 	getchar();
