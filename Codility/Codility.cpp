@@ -12,6 +12,7 @@
 #include "CountDiv.h"
 #include "Distinct.h"
 #include "MaxProductOfThree.h"
+#include "Triangle.h"
 
 using namespace std;
 
@@ -91,8 +92,13 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	// MaxProductOfThree
 	A = { -3, 1, 2, -2, 5, 6 };
-	Test<int>(string("MaxProductOfThree"), -6, MaxProductOfThree(A));
+	Test<int>(string("MaxProductOfThree"), 60, MaxProductOfThree(A));
 
+	// Triangle
+	A = { 10, 2, 5, 1, 8, 20 };
+	//A = { 10, 2, 5, 1, 8, 20 };
+	//	A = { 5, 3, 3 };
+	Test<int>(string("Triangle"), 1, Triangle(A));
 
 	getchar();
 
